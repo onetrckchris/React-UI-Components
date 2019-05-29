@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardContent = props => {
     return (
-        <div>
+        <div className="card-content-container">
             <h3>{props.cardContentProps.linkTitle}</h3>
             <p>{props.cardContentProps.linkTextContent}</p>
             <p className="link-url">{props.cardContentProps.linkUrl}</p>

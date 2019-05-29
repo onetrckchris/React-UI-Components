@@ -12,7 +12,7 @@ const CardContainer = () => {
     }
 
     return (
-        <div>
+        <div className="card-container">
             <CardBanner />
             <CardContent cardContentProps={cardContentProps} />
         </div>
