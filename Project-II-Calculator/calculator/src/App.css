@@ -1,4 +1,20 @@
+.content-container {
+    display: flex;
+}
+
 .buttons-container {
     display: flex;
     flex-direction: column;
+    width: 332px;
+    border: 1px solid gray;
+    border-right: none;
+}
+
+.operation-buttons-container {
+    border: 1px solid gray;
+    border-left: none;
+}
+
+.row1, .row2, .row3{
+    display: flex;
 }
