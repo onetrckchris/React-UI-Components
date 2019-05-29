@@ -1,0 +1,35 @@
+.long-button {
+    height: 93px;
+    color: #222222;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.number-button {
+    height: 93px;
+    width: 109.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.operation-button {
+    height: 93px;
+    width: 120px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #A0001E;
+    color: white;
+    border: 1px solid gray;
+    font-size: 3rem;
+}
